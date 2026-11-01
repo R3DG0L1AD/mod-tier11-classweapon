@@ -23,7 +23,7 @@ local function say(p, m) p:SendBroadcastMessage("|cff69ccf0[Tirion's Echo]|r " .
 local function trialQuest(p) local i = IDX[p:GetClass()]; return i and (915202 + i), i and (915300 + i) end
 
 
--- ===== Spec swap (added 2026-10-13, UNDO: /home/malachi/wow-server/UNDO-specswap-20261013.txt) =====
+-- ===== Spec swap (added 2026-10-13, UNDO: see the server undo notes) =====
 local FURY_READY = true   -- flipped to true after the restart that lifts Kor'thazan's one-copy limit
 local SETS = {
   [1]  = { {"Arms / Fury: Kor'thazan", {915100}}, {"Fury (Titan's Grip): two Kor'thazans", {915100,915100}, fury=true}, {"Protection: Bulwark-Blade + Dreamward Aegis", {915101,915105}} },
